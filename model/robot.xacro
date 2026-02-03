@@ -82,7 +82,7 @@
   <!-- ############################################### -->
   <!--           Include additional files              -->
   <!-- ############################################### -->
-  <xacro:include filename="$(find mobile_robot)/model/robot.gazebo"/>
+  <xacro:include filename="$(find potential_fields_simulation)/model/robot.gazebo"/>
 
   <!-- ############################################### -->
   <!--           DEFINITION OF LINKS AND JOINTS        -->

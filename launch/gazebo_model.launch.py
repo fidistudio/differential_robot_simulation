@@ -12,7 +12,7 @@ import xacro
 
 def generate_launch_description():
     robot_xacro_name = "differential_drive_robot"
-    package_name = "mobile_robot"
+    package_name = "differential_robot_simulation"
     model_file_relative_path = "model/robot.xacro"
 
     path_model_file = os.path.join(
