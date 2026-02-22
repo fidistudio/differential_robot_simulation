@@ -66,15 +66,15 @@
       <pose relative_to='lidar_link'>0 0 0 0 0 0</pose>
 
       <topic>scan</topic>
-      <update_rate>2</update_rate>
+      <update_rate>10</update_rate>
 
       <lidar>
         <scan>
           <horizontal>
             <samples>720</samples>
             <resolution>1</resolution>
-            <min_angle>-3.14</min_angle>
-            <max_angle>3.14</max_angle>
+            <min_angle>-1.57</min_angle>
+            <max_angle>1.57</max_angle>
           </horizontal>
         </scan>
 
